@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 3000;
-const endpoint = 'https://material.io/tools/icons/static/data.json'
+const endpoint = 'https://github-no-cors-client.herokuapp.com/'
 
 app.use(cors())
 
